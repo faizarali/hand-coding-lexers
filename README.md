@@ -1,6 +1,6 @@
 # Hand Coding Lexers
 
-This is a small example of hand coding lexers.
+These are small examples of hand coding lexers.
 
 - Regular Expressions are equivalent to code
   - Concatenation is a sequence of statements

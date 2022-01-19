@@ -51,4 +51,4 @@ Expected output (Using `D` as the input (though stdin)):
 recognizing regex
 D
 recognized
-```# hand-coding-lexers
+```

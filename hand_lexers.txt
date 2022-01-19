@@ -1,0 +1,27 @@
+- Regular Expressions are equivalent to code
+  - Concatenation is a sequence of statements
+  - Alternation is an if statement
+  - Closure is a while loop
+
+// concatenation
+c = fgetc(file);
+assert('a' == c);
+c = fgetc(file);
+assert('b' == c);
+
+// closure
+c = fgetc(file);
+while (...) {
+  ungetc(c, file);
+  // repeated pattern
+}
+
+// alternation
+c = fgetc(file);
+if (...) {
+  ungetc(c, file);
+  // first alternative
+} else if (...) {
+  ungetc(c, file);
+  // second alternative
+}
